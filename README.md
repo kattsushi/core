@@ -1,7 +1,6 @@
-OnixJS - FrameWork
+OnixJS - FrameWork [![Beerpay](https://beerpay.io/onixjs/core/badge.svg?style=beer)](https://beerpay.io/onixjs/core) [![Beerpay](https://beerpay.io/onixjs/core/make-wish.svg?style=flat)](https://beerpay.io/onixjs/core?focus=wish) [![Travis](https://img.shields.io/travis/onixjs/core.svg)](https://travis-ci.org/onixjs/core) [![npm (scoped)](https://img.shields.io/npm/v/@onixjs/core.svg)](npmjs.com/package/@onixjs/core) [![Coveralls github](https://img.shields.io/coveralls/github/onixjs/core/development.svg)](https://coveralls.io/github/onixjs/core)
 ================
 ![alt text](https://raw.githubusercontent.com/onixjs/core/master/misc/onix-splash.png "OnixJS")
-The High-Performance SOA Real-Time Framework for Node.JS.
 
 > **Disclaimer**: This framework is in active development and won't be ready for production until we reach release candidate.
  - **Alpha release date**: Feb 2018

@@ -8,7 +8,7 @@ import {
   IRequest,
   ICall,
 } from '../src/index';
-import {TodoModel} from './todo.app/modules/todo.model';
+import {TodoModel} from './todo.shared/todo.model';
 import * as WebSocket from 'uws';
 const pkg = require('../../package.json');
 const cwd = path.join(process.cwd(), 'dist', 'test');
@@ -63,7 +63,7 @@ test('Onix app greeter', async t => {
  **/
 test('Onix rpc component methods from server', async t => {
   const onix: OnixJS = new OnixJS({cwd});
-  await onix.load('TodoApp@todo.app');
+  await onix.load('TodoApp@todo2.app');
   const todo: TodoModel = new TodoModel();
   todo.text = 'Hello World';
   const operation: IAppOperation = await onix.coordinate(
